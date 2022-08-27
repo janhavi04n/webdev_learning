@@ -6,20 +6,30 @@
         <meta name="description" content="This page contains all the stuff I am learning how to create as I learn HTML from free code camp">
         <title>My First Web Page - Free Code Camp</title>
         <link rel="icon" href="html5.png" type="image/x-icon">
-        <style>
-            html {
-                font-size: 22px;
-            }
-            body {
-                background-color: #333;
-                color: whitesmoke;
-            }
-        </style>
+        <link rel="stylesheet" href="main.css" type="text/css">
     </head>
     <body>
         <h1>Hello html World!</h1>
         <hr>
-        
+        <nav>
+            <ul>
+                <li>
+                    <a href="#learn">Learning Html</a>
+                </li>
+                <li>
+                    <a href="#vacation">Vacation Plans</a>
+                </li>
+                <li>
+                    <a href="#avoid">Avoid these places</a>
+                </li>
+                <li>
+                    <a href="#travel">More Travel plans</a>
+                </li>
+
+            </ul>
+        </nav>
+        <hr>
+        <section id="learn">
         <h2>I'm ready to learn html</h2>
         <p>This is my first web page .. and I will be updating it as I learn</p>
 
@@ -29,9 +39,10 @@
         <p>Let me show you :
             <br>&nbsp;&nbsp;&nbsp;&nbsp; Every day I learn more about html.
             <br>&nbsp;&nbsp;&nbsp;&nbsp; I plan out my day to include an hour of learning.
-            <br>&nbsp;&nbsp;&nbsp;&nbsp; I use resources from FreeCodeCamp and <abbr title="Mozilla Developer Network">MDN</abbr>.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; I use resources from <a href="http://www.freecodecamp.org/">FreeCodeCamp</a> and <abbr title="Mozilla Developer Network">MDN</abbr>.
         </p>
-
+        </section>
+        <section id="vacation">
         <hr>
         <h3>Oh, and I am also planning a Vacation</h3>
         <p>
@@ -47,7 +58,8 @@
                 Gangtok, IN 737101
             </address>
         </p>
-
+        </section>
+        <section id="avoid">
         <h3>Places I would like to <strong>avoid</strong></h3>
         <p>Anywhere crowded. Would like to avoid crowds and noise.</p>
 
@@ -61,7 +73,8 @@
             <li>Pin Parvati Pass</li>
             <li>Valley of Flowers</li>
         </ul>
-
+    </section>
+    <section id="travel">
         <p>I love to travel, and these places might be fun because ...</p>
         <dl>
             <dt>North Pole</dt>
@@ -70,9 +83,11 @@
             <dt>South Pole</dt>
             <dd>Penguins</dd>
         </dl>
-
+    </section>
         <p>Learning how to make a copyright and less, greater than symbols! <em>Yay!</em></p>
-        &lt;&lt;&lt; &copy;Janhavi Namshikar &gt;&gt;&gt;
-
+        &lt;&lt;&lt; &copy;<a href="about.html">Janhavi Namshikar</a> &gt;&gt;&gt;
+    <p>
+        <a href="#">Back to Top</a>
+    </p>
     </body>
 </html>
